@@ -1,5 +1,6 @@
 #!/bin/bash
 echo ""
+clear
 echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m >> MUST ROOT ! >> \e[0m'
 sleep 5
 clear
