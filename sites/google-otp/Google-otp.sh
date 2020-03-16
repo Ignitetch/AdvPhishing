@@ -13,7 +13,7 @@ fi
 
 } 
 
-sleep 6
+sleep 2
 # spinner
 spinlong ()
 {
@@ -66,8 +66,6 @@ echo ""
 		cp -R * /var/www/html/
 		cd ..
                 clear
-                chmod 777 Logo.sh
-                ./Logo.sh
 		cd /var/www/html/
                 chmod +x *
 		chmod 7777 *
