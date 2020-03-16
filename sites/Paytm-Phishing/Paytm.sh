@@ -53,6 +53,7 @@ echo""
                 sleep 2
                 echo""
                 sudo apt-get install apache2
+		apt install php
                 apt install jq
                 apt install tail
                 apt install curl
