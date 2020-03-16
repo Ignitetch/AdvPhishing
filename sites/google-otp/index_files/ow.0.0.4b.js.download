@@ -1,0 +1,315 @@
+/**
+ * One Web core file
+ * To use one web framework, this file should be downloaded immediately after the Vue.js file
+ * The complete set of contributors may be found at https://gitlab.corp.olacabs.com/website-platform/one-web#contributors
+ */
+
+(function (window) {
+
+  var userAgent = window.navigator.userAgent;
+
+  /**
+   *{def} : This mixin is a global one, available to all the components of the project
+   * 1. Responsible for intelligently inserting styles of the component during its create lifecycle event
+   * 2. Provides component the ability  to lazy load other components as and when required
+   */
+  Vue.mixin({
+    data: function () {
+      return {
+        /**
+         * owRegistry contains the map of all initialized component names
+         * Eg, owRegistry[component-name] to check if the component is available, when lazy loading
+         */
+        owRegistry: window.owRegistry
+      }
+    },
+    created: function () {
+      this._insertStyleInHead();
+    },
+    methods: {
+
+      /**
+       * {def} : function to lazy load a component,
+       * if the component is already intialized and mapping is present, do nothing
+       * else,
+       *    component def is present, the user might have greedily laoded the component, add it to registry
+       *    component def is absent , attach a script tag to get the component
+       */
+      loadOWComponent: function (name, url, callback) {
+
+        if (!window.owRegistry[name]) {
+          if (Vue.component(name)) {
+            Vue.set(owRegistry, name, true);
+            callback && callback.call(this, name);
+          } else {
+            this._insertScriptInBody(name, url, callback);
+          }
+        } else {
+          callback && callback.call(this, name);
+        }
+      },
+
+      /**
+       * {def} : function to add component styles in head, if not present already,
+       * {callee} : called during create event of lifecycle
+       */
+      _insertStyleInHead: function () {
+
+        //get the css defined in component config
+        var owCSS = this.$options.owCSS;
+        var id = (this.$options._scopeId || Object.getPrototypeOf(this.$options).name);
+
+        // no Css, do nothing, else get the Id for checking on document
+        if (!owCSS) return;
+
+        //add style if no style already present for that Id
+        if (!document.getElementById(id)) {
+          var style = document.createElement("style");
+          style.id = id;
+          style.innerHTML = owCSS;
+          document.head.appendChild(style);
+        }
+      },
+
+      /**
+       * {def} : function to download a component by creating a script tag dynamically,
+       * {callee} : loadOWComponent of this mixin
+       * {params} : name : name of the component and the file, callback : to be called on successful download of file
+       * TODO it should have a url param as well
+       */
+      _insertScriptInBody: function (name, url, callback) {
+
+        if (!url) {
+          //TODO can we have a default url here based on name???
+          return;
+        }
+        var script = document.createElement("script");
+        script.defer = true;
+        var self = this;
+        script.onload = function (e) {
+          Vue.set(owRegistry, name, true);
+          owResolveRoute(name);
+          callback && callback.call(self, name);
+        };
+        script.src = url;
+        document.head.appendChild(script);
+      },
+
+      /**
+       *{def} : Called when event needs to be fired to tracking service for analytics
+       * {callee} : component method after some business event
+       * {params} :  data : object with eventName and eventValue
+       */
+      initTracking: function (config) {
+        if (config) {
+          owConfig.tracking = config;
+        }
+      },
+
+      /**
+       *{def} : Called when event needs to be fired to tracking service for analytics
+       * {callee} : component method after some business event
+       * {params} :  data : object with eventName and eventValue
+       */
+      trackEvent: function (data) {
+        var ev = (typeof data.eventValue === "object") ? JSON.stringify(data.eventValue) : data.eventValue;
+        var params = {
+          eventName: data.eventName,
+          eventValue: ev,
+          browserName: this.getBrowser(),
+          url: window.location.pathname,
+          platform: this.getPlatform()
+        };
+
+        if (owConfig.apiBase) {
+          params.domain = window.location.hostname + owConfig.apiBase;
+        } else {
+          params.domain = window.location.hostname;
+        }
+
+        if(params.url.indexOf("/verify-email/")===0){
+        	params.url = "/verify-email/hashvalue"
+				}
+
+        //TODO:
+        //params = Object.assign(params, this.route.__queryParams);
+        var url = (owConfig.fabricEndpoint + "/?");
+        for (var key in params) {
+          url = url + key + "=" + encodeURIComponent(params[key]) + "&";
+        }
+        url = url.replace(/&$/, "");
+        var img = new Image();
+        img.src = url;
+      },
+
+      getBrowser: function () {
+        return owBrowser;
+      },
+
+      getPlatform: function () {
+        return owPlatform;
+      },
+      getOS: function () {
+        return owOS;
+      },
+      getConfig: function (property) {
+        return owConfig[property];
+      },
+
+      extractHostname: function (url) {
+        var hostname;
+        url = decodeURIComponent(url);
+        if (!/^https?:\/\//i.test(url)) {
+          url = 'http://' + url;
+        }
+        //find & remove protocol (http, ftp, etc.) and get hostname
+        var parser = document.createElement('a');
+        parser.href = url;
+        hostname = parser.hostname;
+        if(!hostname)
+          hostname = "invalidurl.com";
+        return hostname;
+      },
+
+      getMobileOperatingSystem: function () {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        if (/windows phone/i.test(userAgent)) {
+          return "Windows Phone";
+        }
+
+        if (/android/i.test(userAgent)) {
+          return "android";
+        }
+
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          return "ios";
+        }
+
+        return "unknown";
+      }
+    }
+  });
+
+
+  /**
+   *{def} : Called when lazy loading router components
+   * Window level function so that it can be accessed from anywhere
+   * {callee} : on lazy loading router view
+   * {params} :
+   * 1. key : name of the component
+   * 2. resolveDef : resolve function to be called when definition is present
+   */
+  window.owLazyRoute = function (key, resolveDef) {
+    /*
+     * check if the  component definition is already present in ola reg. Object
+     * TRUTHY : just resolve the function so route
+     * FALSY : put the function in the unresolved routes map to be fired when that component comes
+     */
+    if (window.owRegistry[key]) {
+      resolveDef(Vue.component(key));
+    } else {
+      unresolvedRoutes[key] = resolveDef;
+    }
+  };
+
+  /**
+   *{def} : Called when component is loaded
+   * {callee} : on successful load of the component
+   * {params} :  key : name of the component
+   */
+  function owResolveRoute(key) {
+    /*
+     * get the resolve function from the map
+     * PRESENT : execute the resolve function
+     * ABSENT : do nothing
+     */
+    var resolveFunc = unresolvedRoutes[key];
+    if (resolveFunc) {
+      resolveFunc(Vue.component(key));
+    }
+  }
+
+  //to keep list of all initialized components
+  window.owRegistry = {};
+  //to keep all the resolve definitions of lazy loaded routes
+  var unresolvedRoutes = {};
+
+  //to keep all the window level config
+  var owConfig = (window.owConfig || {});
+  /**
+   * {def} : Detects browser vendor
+   * {callee} : IIFE
+   * {params} : NA
+   */
+  var owBrowser = (function () {
+    var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    var isEdge = !isIE && !!window.StyleMedia;
+    if (userAgent.match(/OPR/i) && !isEdge) {
+      return 'Opera';
+    }
+    if (userAgent.match(/MiuiBrowser/i) && !isEdge) {
+      return 'MiuiBrowser';
+    }
+    if (userAgent.match(/SamsungBrowser/i) && !isEdge) {
+      return 'SamsungBrowser';
+    }
+    else if (userAgent.match(/Chrome/i) && !isEdge) {
+      return 'Chrome';
+    }
+    else if (userAgent.match(/Safari/i) && !isEdge) {
+      return 'Safari';
+    }
+    else if (userAgent.match(/Firefox/i)) {
+      return 'Firefox';
+    }
+    else if ((userAgent.match(/MSIE/i) != -1 ) || (!!document.documentMode == true )) //IF IE > 10
+    {
+      return 'IE';
+    }
+    else if (isEdge) {
+      return 'Edge';
+    }
+    else if (userAgent.match(/UCBrowser/i)) {
+      return "UCBrowser";
+    }
+    else if (userAgent.match(/Opera Mini/i)) {
+      return "OperaMini";
+    }
+    else {
+      return 'Others';
+    }
+  })();
+  /**
+   * {def} : Detects desktop or mobile
+   * {callee} : IIFE
+   * {params} : NA
+   */
+  var owPlatform = (function () {
+    if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/android/i) || userAgent.match(/Windows Phone/i) || userAgent.match(/Mobile/i)) {
+      return "mobile";
+    } else {
+      return "desktop";
+    }
+  })();
+
+  /**
+   * {def} : Detects Operating system
+   * {callee} : IIFE
+   * {params} : NA
+   */
+  var owOS = (function () {
+    if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+      return "ios";
+    } else if (userAgent.match(/android/i)) {
+      return "android";
+    } else if (userAgent.match(/Windows Phone/i)) {
+      return "windowsMbl";
+    } else if (userAgent.match(/Mobile/i)){
+      return "Mobile";
+    } else {
+      return "desktop";
+    }
+  })();
+
+})(window);

@@ -1,0 +1,24 @@
+var thirdPartyCookieId = null;
+var localThirdPartyParams = {};
+var customConfig = customConfig || {pages: {}, templates: {}, allowOverride: ["trackReferrer", "trackLocation"]};
+
+
+var gacid = "-";
+try {
+gacid = (function getGACookie() {
+var value = "; " + document.cookie;
+var parts = value.split("; _ga=");
+if (parts.length == 2) {
+var gt = parts.pop().split(";").shift();
+var ps = gt.split(".");
+return ps[ps.length-2]+"."+ps[ps.length-1];
+}
+})();
+} catch(e) {}
+
+var _gravity = _gravity || [];
+_gravity.push({'type':'set', 'gacid': gacid});
+
+_gravity.push({type: 'customconfig', config: customConfig, environment: 'prod'});
+    
+
