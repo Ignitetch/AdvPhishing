@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="gold-icon" transform="translate(20.000000, 20.000000) rotate(-45.000000) translate(-20.000000, -20.000000) translate(6.000000, 6.000000)">
+                <rect id="bottom" fill="#EEE5CA" transform="translate(14.000000, 23.700025) rotate(90.000000) translate(-14.000000, -23.700025) " x="9.69999981" y="9.7000246" width="8.60000038" height="28"></rect>
+                <rect id="right" fill="#E2D4A5" x="19.3999939" y="0" width="8.60000038" height="28"></rect>
+                <rect id="top" fill="#D9C681" transform="translate(14.000000, 4.300000) rotate(90.000000) translate(-14.000000, -4.300000) " x="9.69999981" y="-9.69999981" width="8.60000038" height="28"></rect>
+                <rect id="left" fill="#C8AE4E" x="0" y="0" width="8.60000038" height="28"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
