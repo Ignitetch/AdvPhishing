@@ -13,4 +13,6 @@ When victim enter his credentials, you need to go to original website and use th
 * Arch Linux
 * Termux App ( Not Release )
 # PREREQUISITES
-
+* sudo - [ MUST ]
+* php
+* apache2
