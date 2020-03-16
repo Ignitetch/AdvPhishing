@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>reCAPTCHA</title>
+<style type="text/css">
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="bframe_data/styles__ltr.css">
+<script nonce="qoPJ8uKqnjxfz1/mRmkyTw" type="text/javascript">window['__recaptcha_api'] = 'https://www.google.com:443/recaptcha/';</script>
+<script type="text/javascript" src="recaptcha__en.js" nonce="qoPJ8uKqnjxfz1/mRmkyTw">
+      
+    </script><script type="text/javascript" charset="UTF-8" src="bframe_data/_MrNWMjpufxgtzwJhLUbaP3jOFqueHqUbyGh0bRvmfU.js" nonce="qoPJ8uKqnjxfz1/mRmkyTw"></script></head>
+<body style="height: 100%;"><input type="hidden" id="recaptcha-token" value="03AERD8XqJjxHS2W6Mhtvt5q3IP95IcId2iWVpvfwLG9Ihuy_y06L0LSKspidmaIMBuSC-emCr6tfras0xi1M2m93Z1A2WDNS5MGqUQhIYD90PYCYdDLD1DkhmCvYT3WgBKIqBYHUKANtMaozUHB9ELh49sdVJ4HpqlMyOuAL-KMF5BsQupxKo2--L3-hbuJ6nsJpG4GMVVw_PaaBC0086LGJeSh1sVagueAEtnV0ZpSYCF7zXFJbPojxoFzI-dgmS4M-x3LLeFqx9AWn8666g1TfAaoxM6zF1OoFcdcavHGj-H3B9N3HzDBF_ctY26xSTDbvNXFgDQ0ziVKi9ibLUkk7UNF823jTyI-327Lu0R0TQEGKZRCfmu56ShLTLgn0Yx9_n6Brw8Jic">
+<script type="text/javascript" nonce="qoPJ8uKqnjxfz1/mRmkyTw">
+      
+        recaptcha.frame.Main.init("[\x22finput\x22,null,[\x22conf\x22,null,\x226LdoZSkTAAAAAEyquKnCAeiBngVx1w1DOfML7cix\x22,0,null,[\x22JS_BR\x22]\n,0.75]\n]\n");
+      
+    </script><div style=""><div id="rc-imageselect"><div class="rc-imageselect-response-field"></div><span class="rc-imageselect-tabloop-begin" tabindex="0"></span><div class="rc-imageselect-payload"><div class="rc-imageselect-instructions"><div class="rc-imageselect-desc-wrapper"><div class="rc-imageselect-desc-no-canonical" style="width: 352px; font-size: 16px;">Select all images with <strong style="font-size: 28px;">mountains or hills</strong></div></div><div class="rc-imageselect-progress"></div></div><div class="rc-imageselect-challenge"><div id="rc-imageselect-target" class="rc-imageselect-target" dir="ltr" role="presentation" aria-hidden="true"><table class="rc-imageselect-table-33"><tbody><tr><td role="button" tabindex="0" class="rc-imageselect-tile rc-imageselect-tileselected" aria-label="Image challenge"><div class="rc-image-tile-target"><div class="rc-image-tile-wrapper" style="width: 126px; height: 126px"><img class="rc-image-tile-33" src="bframe_data/payload.jpeg" style="top:0%; left: 0%"><div class="rc-image-tile-overlay"></div></div><div class="rc-imageselect-checkbox"></div></div></td><td role="button" tabindex="0" class="rc-imageselect-tile rc-imageselect-tileselected" aria-label="Image challenge"><div class="rc-image-tile-target"><div class="rc-image-tile-wrapper" style="width: 126px; height: 126px"><img class="rc-image-tile-33" src="bframe_data/payload.jpeg" style="top:0%; left: -100%"><div class="rc-image-tile-overlay"></div></div><div class="rc-imageselect-checkbox"></div></div></td><td role="button" tabindex="0" class="rc-imageselect-tile" aria-label="Image challenge"><div class="rc-image-tile-target"><div class="rc-image-tile-wrapper" style="width: 126px; height: 126px"><img class="rc-image-tile-33" src="bframe_data/payload.jpeg" style="top:0%; left: -200%"><div class="rc-image-tile-overlay"></div></div><div class="rc-imageselect-checkbox"></div></div></td></tr><tr><td role="button" tabindex="0" class="rc-imageselect-tile" aria-label="Image challenge"><div class="rc-image-tile-target"><div class="rc-image-tile-wrapper" style="width: 126px; height: 126px"><img class="rc-image-tile-33" src="bframe_data/payload.jpeg" style="top:-100%; left: 0%"><div class="rc-image-tile-overlay"></div></div><div class="rc-imageselect-checkbox"></div></div></td><td role="button" tabindex="0" class="rc-imageselect-tile" aria-label="Image challenge"><div class="rc-image-tile-target"><div class="rc-image-tile-wrapper" style="width: 126px; height: 126px"><img class="rc-image-tile-33" src="bframe_data/payload.jpeg" style="top:-100%; left: -100%"><div class="rc-image-tile-overlay"></div></div><div class="rc-imageselect-checkbox"></div></div></td><td role="button" tabindex="0" class="rc-imageselect-tile" aria-label="Image challenge"><div class="rc-image-tile-target"><div class="rc-image-tile-wrapper" style="width: 126px; height: 126px"><img class="rc-image-tile-33" src="bframe_data/payload.jpeg" style="top:-100%; left: -200%"><div class="rc-image-tile-overlay"></div></div><div class="rc-imageselect-checkbox" style="display: none;"></div></div></td></tr><tr><td role="button" tabindex="0" class="rc-imageselect-tile rc-imageselect-tileselected" aria-label="Image challenge"><div class="rc-image-tile-target"><div class="rc-image-tile-wrapper" style="width: 126px; height: 126px"><img class="rc-image-tile-33" src="bframe_data/payload.jpeg" style="top:-200%; left: 0%"><div class="rc-image-tile-overlay"></div></div><div class="rc-imageselect-checkbox"></div></div></td><td role="button" tabindex="0" class="rc-imageselect-tile" aria-label="Image challenge"><div class="rc-image-tile-target"><div class="rc-image-tile-wrapper" style="width: 126px; height: 126px"><img class="rc-image-tile-33" src="bframe_data/payload.jpeg" style="top:-200%; left: -100%"><div class="rc-image-tile-overlay"></div></div><div class="rc-imageselect-checkbox"></div></div></td><td role="button" tabindex="0" class="rc-imageselect-tile" aria-label="Image challenge"><div class="rc-image-tile-target"><div class="rc-image-tile-wrapper" style="width: 126px; height: 126px"><img class="rc-image-tile-33" src="bframe_data/payload.jpeg" style="top:-200%; left: -200%"><div class="rc-image-tile-overlay"></div></div><div class="rc-imageselect-checkbox"></div></div></td></tr></tbody></table></div></div><div class="rc-imageselect-incorrect-response" style="display:none">Please try again.</div><div class="rc-imageselect-error-select-more" style="display:none">Please select all matching images.</div><div class="rc-imageselect-error-dynamic-more" style="display:none">Please also check the new images.</div><div class="rc-imageselect-error-select-something" style="display:none">Please select around the object, or reload if there are none.</div></div><div class="rc-footer"><div class="rc-separator"></div><div class="rc-controls"><div class="primary-controls"><div class="rc-buttons"><div class="button-holder reload-button-holder"><button class="rc-button goog-inline-block rc-button-reload rc-button-disabled" title="Get a new challenge" value="" id="recaptcha-reload-button" disabled="disabled"></button></div><div class="button-holder audio-button-holder"><button class="rc-button goog-inline-block rc-button-audio rc-button-disabled" title="Get an audio challenge" value="" id="recaptcha-audio-button" disabled="disabled"></button></div><div class="button-holder image-button-holder"><button class="rc-button goog-inline-block rc-button-image rc-button-disabled" title="Get a visual challenge" value="" style="display: none;" id="recaptcha-image-button" disabled="disabled"></button></div><div class="button-holder help-button-holder"><button class="rc-button goog-inline-block rc-button-help rc-button-disabled" title="Help" value="" id="recaptcha-help-button" disabled="disabled"></button></div><div class="button-holder undo-button-holder"><button class="rc-button goog-inline-block rc-button-undo" title="Undo" value="" style="display: none;" id="recaptcha-undo-button" tabindex="0"></button></div></div><div class="verify-button-holder"><button class="rc-button-default goog-inline-block rc-button-default-disabled" title="" value="" id="recaptcha-verify-button" disabled="disabled">Verify</button></div></div><div class="rc-challenge-help" style="display:none" tabindex="0"></div></div></div><span class="rc-imageselect-tabloop-end" tabindex="0"></span></div></div><iframe style="display: none;"></iframe></body></html>
