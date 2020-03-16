@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="20" viewBox="0 0 43 20">
+    <defs>
+        <path id="a" d="M0 19.975h28.941V0H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#002974" stroke-linecap="round" stroke-width="1.2" d="M1 19.385h33.765M37.98 19.385h3.64"/>
+        <g transform="translate(3.412)">
+            <path fill="#FFF" stroke="#012B72" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M26.483 2.524V16.38H6.16V2.524c0-1 .808-1.803 1.817-1.803h16.688c1.008 0 1.817.802 1.817 1.803z"/>
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path stroke="#012B72" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M4.425 20.127h23.793V16.38H4.425z" mask="url(#b)"/>
+            <path fill="#FFF" d="M2.533 19.254a1.81 1.81 0 0 1-1.81-1.802V7.31a1.81 1.81 0 0 1 1.81-1.803h5.75c.995 0 1.809.812 1.809 1.803v10.142c0 .99-.814 1.802-1.809 1.802h-5.75z" mask="url(#b)"/>
+            <path fill="#FFF" stroke="#012B72" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M8.283 19.254h-5.75a1.81 1.81 0 0 1-1.81-1.802V7.31a1.81 1.81 0 0 1 1.81-1.803h5.75c.995 0 1.809.812 1.809 1.803v10.142c0 .99-.814 1.802-1.809 1.802z" mask="url(#b)"/>
+            <path fill="#00B9F5" d="M5.44 17.637a.951.951 0 0 1-.955-.947.95.95 0 0 1 .955-.946.95.95 0 0 1 .954.946.95.95 0 0 1-.954.947z" mask="url(#b)"/>
+            <path stroke="#00B9F5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M15.81 3.44h1.024" mask="url(#b)"/>
+        </g>
+    </g>
+</svg>

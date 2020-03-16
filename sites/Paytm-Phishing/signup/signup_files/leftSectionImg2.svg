@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="9" y="0" width="18" height="28" rx="3"></rect>
+    </defs>
+    <g id="1.-Create-a-new-account" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-288.000000, -269.000000)">
+        <g id="Group-13" transform="translate(288.000000, 121.000000)">
+            <g id="Group-17" transform="translate(0.000000, 74.000000)">
+                <g id="Group-14" transform="translate(0.000000, 74.000000)">
+                    <g id="ic_mobile">
+                        <g id="Group-2" transform="translate(2.000000, 7.000000)">
+                            <path d="M0,27.4210526 L33.7647059,27.4210526" id="Path-3" stroke="#002974" stroke-linecap="round"></path>
+                            <path d="M36.9803922,27.4210526 L40.6203019,27.4210526" id="Path-3" stroke="#002974" stroke-linecap="round"></path>
+                            <g id="Rectangle-2">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#002E6E" stroke-width="1" x="9.5" y="0.5" width="17" height="27" rx="3"></rect>
+                            </g>
+                            <path d="M9.06925368,21.7885083 L26.5023875,21.7885083" id="Path-2" stroke="#002E6E"></path>
+                            <circle id="Oval-2" fill="#00B9F5" cx="18.5" cy="24.5" r="1.5"></circle>
+                            <path d="M16.0135854,2.94114684 L18.9808744,2.94114684" id="Path-4" stroke="#002E6E" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
