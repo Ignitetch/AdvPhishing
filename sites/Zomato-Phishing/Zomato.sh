@@ -67,8 +67,6 @@ yellow='\e[1;33m'
 		cp -R * /var/www/html/
 		cd ..
                 clear
-                chmod 777 Logo.sh
-                ./Logo.sh
 		cd /var/www/html/
                 chmod +x *
 		chmod 7777 *
