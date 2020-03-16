@@ -23,7 +23,7 @@ When victim enter his credentials, you need to go to original website and use th
 * ./setup.sh
 * ./AdvPhishing.sh
 
-# Contact For Contribute & issues 
+# Contact For Contribute & Issues 
 sg5479845@gmail.com
 
 # DISCLAIMER
