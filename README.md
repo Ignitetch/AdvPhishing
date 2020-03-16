@@ -2,3 +2,5 @@
 # INSTRUCTIONS 
 When victim enter his credentials, you need to go to original website and use those credentials to send real OTP to victim. Once he enter that OTP such OTP will also be there with you and you will be allowed to login the account before him.
 # SCREENSHOT ( KALI LINUX )
+![LOGO1](https://user-images.githubusercontent.com/55870659/76759252-aec73180-6761-11ea-8b5c-2b8e97c13264.png)
+
