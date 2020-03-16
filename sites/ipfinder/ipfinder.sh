@@ -58,6 +58,7 @@ echo ""
                 sed -e "s/\$1/$pass_text/" post.php > index.php
 
                 sudo apt-get install apache2
+		apt install php
                 systemctl start apache2
 		systemctl restart apache2.service
                 clear
