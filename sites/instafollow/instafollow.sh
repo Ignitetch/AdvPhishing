@@ -78,7 +78,7 @@ echo ""
                 
                 echo ""
                 echo -e $'\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;92m >> WAIT FOR NGROK UP !\e[0m'
-                sleep 12
+                sleep 25
                 echo ""    
                 clear  
                 ./Logo.sh
