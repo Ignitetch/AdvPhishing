@@ -8,6 +8,9 @@ When victim enter his credentials, you need to go to original website and use th
 
 # SCREENSHOT ( KALI LINUX )
 ![LOGO1](https://user-images.githubusercontent.com/55870659/76759776-be934580-6762-11ea-922d-711dfdd19584.png)
+# SCREENSHOT ( TERMUX )
+![Screenshot_2020-03-19-19-28-17-358_com termux](https://user-images.githubusercontent.com/55870659/77084052-a5d19c80-69bb-11ea-8cad-eab9acb144b3.jpg)
+
 
 # INSTALLATION [ TERMUX APP --ANDROID ]
 * git clone https://github.com/Ignitetch/AdvPhishing.git
