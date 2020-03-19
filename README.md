@@ -5,14 +5,11 @@ When victim enter his credentials, you need to go to original website and use th
 
 # TUTORIAL [ KALI ]
 [(![des](https://user-images.githubusercontent.com/55870659/77065337-7b7de000-69b7-11ea-915d-4dad81d2e892.png)](https://youtu.be/SDuaVMjph-c)
-# TUTORIAL [ TERMUX ]
-[(![des](https://user-images.githubusercontent.com/55870659/77065337-7b7de000-69b7-11ea-915d-4dad81d2e892.png)](https://www.youtube.com/watch?v=LO3hX1lLBjI)
-
 
 # TUTORIAL [ TERMUX ]
+[(![des](https://user-images.githubusercontent.com/55870659/77084052-a5d19c80-69bb-11ea-8cad-eab9acb144b3.jpg)](https://www.youtube.com/watch?v=LO3hX1lLBjI)
 
-# SCREENSHOT ( TERMUX )
-![Screenshot_2020-03-19-19-28-17-358_com termux](https://user-images.githubusercontent.com/55870659/77084052-a5d19c80-69bb-11ea-8cad-eab9acb144b3.jpg)
+# SCREENSHOT ( KALI )
 
 
 # INSTALLATION [ TERMUX APP --ANDROID ]
