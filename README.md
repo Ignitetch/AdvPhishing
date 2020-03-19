@@ -5,6 +5,8 @@ When victim enter his credentials, you need to go to original website and use th
 
 # TUTORIAL [ KALI ]
 [(![des](https://user-images.githubusercontent.com/55870659/77065337-7b7de000-69b7-11ea-915d-4dad81d2e892.png)](https://youtu.be/SDuaVMjph-c)
+# TUTORIAL [ TERMUX ]
+https://www.youtube.com/watch?v=LO3hX1lLBjI
 
 # SCREENSHOT ( KALI LINUX )
 ![LOGO1](https://user-images.githubusercontent.com/55870659/76759776-be934580-6762-11ea-922d-711dfdd19584.png)
