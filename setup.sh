@@ -17,6 +17,7 @@ apt install curl -y
 systemctl start apache2
 apt install xterm -y
 apt install gnome-terminal -y
+unzip ngrok-stable-linux-amd64.zip
 clear
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
