@@ -41,7 +41,8 @@ When victim enter his credentials, you need to go to original website and use th
 * php
 * apache2
 * ngrok
-
+# LANGUAGE 
+* Bash Script
 # Contact For Contribute & Issues 
 sg5479845@gmail.com
 
