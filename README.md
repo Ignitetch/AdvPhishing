@@ -43,10 +43,11 @@ When victim enter his credentials, you need to go to original website and use th
 # LANGUAGE 
 * Bash Script
 # Contact For Contribute & Issues 
-sg5479845@gmail.com
+
+                                      EMAIL FOR ISSUES AND CONTRIBUTE : sg5479845@gmail.com
 
 # DISCLAIMER
-                                              TO BE USED FOR EDUCATIONAL PURPOSES ONLY
+                                       TO BE USED FOR EDUCATIONAL PURPOSES ONLY
 
 The use of the Adv-Phishing is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. 
 
