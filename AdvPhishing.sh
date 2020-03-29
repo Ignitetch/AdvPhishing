@@ -17,6 +17,12 @@ clear
 exit
 fi
 
+php="$(ps -efw | grep php | grep -v grep | awk '{print $2}')"
+ngrok="$(ps -efw | grep ngrok | grep -v grep | awk '{print $2}')"
+kill -9 $php
+kill -9 $ngrok
+clear
+
 clear
 chmod 777 Logo.sh
 ./Logo.sh
