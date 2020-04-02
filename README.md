@@ -57,7 +57,6 @@ When victim enter his credentials, you need to go to original website and use th
 The use of the Adv-Phishing is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. 
 
 # Social Media
-![FA57297C-B0EC-44A7-A5A3-375566AA737E](https://user-images.githubusercontent.com/55870659/78219228-f80ec500-7473-11ea-9339-2943cbb0da63.png)![FF2774EA-E8C3-43D5-9E51-5F069C3EBDF3](https://user-images.githubusercontent.com/55870659/78219495-7bc8b180-7474-11ea-8ef9-ab1574b7c201.png)
-![1A3B60EE-BDA8-4954-8E89-5B85645FD604](https://user-images.githubusercontent.com/55870659/78219531-8b47fa80-7474-11ea-886d-0446996f4ab9.png)
+![FA57297C-B0EC-44A7-A5A3-375566AA737E](https://user-images.githubusercontent.com/55870659/78219228-f80ec500-7473-11ea-9339-2943cbb0da63.png)![75D10B8F-D7D2-477B-A209-52E1DBA83AD4](https://user-images.githubusercontent.com/55870659/78219775-17f2b880-7475-11ea-9e73-29a98a8299e9.png)
 
 
