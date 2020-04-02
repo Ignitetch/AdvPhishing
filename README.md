@@ -45,6 +45,8 @@ When victim enter his credentials, you need to go to original website and use th
 * ngrok Token
 # LANGUAGE 
 * Bash Script
+# Social Platforms 
+https://www.google.com/search?q=Linkedin+png&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjIj86jkcnoAhVk8XMBHTgvCGMQ_AUoAXoECA0QAw&biw=1366&bih=663#imgrc=DH03GNgYXQ6_cM
 # Contact For Contribute & Issues 
 
                                       EMAIL FOR ISSUES AND CONTRIBUTE : sg5479845@gmail.com
