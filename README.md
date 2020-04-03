@@ -53,11 +53,11 @@ When victim enter his credentials, you need to go to original website and use th
 
 # DISCLAIMER
                                        TO BE USED FOR EDUCATIONAL PURPOSES ONLY
-# Paypal
-https://www.paypal.com/paypalme2/Goyal827
-
 
 The use of the Adv-Phishing is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. 
+
+# Paypal
+https://www.paypal.com/paypalme2/Goyal827
 
 # Social Media
 ![7A2DEEE6-232A-4D65-B42C-17E46828C8FB](https://user-images.githubusercontent.com/55870659/78220320-242b4580-7476-11ea-9dcf-2309f138098d.png)
