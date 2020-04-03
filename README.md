@@ -54,7 +54,7 @@ When victim enter his credentials, you need to go to original website and use th
 # DISCLAIMER
                                        TO BE USED FOR EDUCATIONAL PURPOSES ONLY
 # Paypal
-![modern-donate-button-flat-vector-12819189](https://user-images.githubusercontent.com/55870659/78330508-f65b0500-7538-11ea-9255-1675acce2168.jpg)
+https://www.paypal.com/paypalme2/Goyal827
 
 
 The use of the Adv-Phishing is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. 
