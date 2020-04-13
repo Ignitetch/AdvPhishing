@@ -23,8 +23,8 @@ When victim enter his credentials, you need to go to original website and use th
 * PAYTM OTP - https://www.youtube.com/watch?v=3TB_sISTw9U
 
 # SCREENSHOT ( KALI )
-![new](https://user-images.githubusercontent.com/55870659/79147085-66ffee00-7d91-11ea-9a78-3037621da128.png)
-![new2](https://user-images.githubusercontent.com/55870659/79147092-69624800-7d91-11ea-9869-d4267462a3b7.png)
+![full](https://user-images.githubusercontent.com/55870659/79147250-a7f80280-7d91-11ea-894a-d7d685a6e8cb.png)
+
 
 # INSTALLATION [ TERMUX APP --ANDROID ]
 * git clone https://github.com/Ignitetch/AdvPhishing.git
