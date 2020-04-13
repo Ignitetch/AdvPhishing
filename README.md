@@ -6,7 +6,8 @@
 
 <a href="https://github.com/Ignitetch/AdvPhishing/releases"><img title="GitHub version" src="https://img.shields.io/badge/version-2.0-blue" ></a>  
 </p>
-
+<img title="GitHub version" src="https://img.shields.io/badge/version-2.0-blue" ></a>  
+</p>
 
 
 # TECHNIQUE 
