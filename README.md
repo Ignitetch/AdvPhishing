@@ -3,6 +3,7 @@
  </p>
 
 ![20200316_174935_0000](https://user-images.githubusercontent.com/55870659/79133536-08bb1700-7d61-11ea-84a0-8e7fcbb70392.png)
+![20200413_214425_0000](https://user-images.githubusercontent.com/55870659/79145594-c2bc7e00-7d75-11ea-9b6f-9bbb402b44fd.png)
 
 
 # TECHNIQUE 
