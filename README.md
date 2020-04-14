@@ -78,5 +78,5 @@ https://www.paypal.com/paypalme2/Goyal827
 
 
 <p align="center">
-<a href="https://www.facebook.com/profile.php?id=100016971998117"><img title="GitHub version" src="https://img.shields.io/badge/-Facebook-blue" ></a> <a href="https://www.youtube.com/channel/UCfBDWui9dSRbCmT32jf848Qs"><img title="GitHub version" src="https://img.shields.io/badge/-youtube-red" ></a><a href="https://www.linkedin.com/in/shubham-goyal-sgpro"><img title="GitHub version" src="https://img.shields.io/badge/-Linkedin-green" ></a>
+<a href="https://www.facebook.com/profile.php?id=100016971998117"><img title="GitHub version" src="https://img.shields.io/badge/-Facebook-blue" ></a> <a href="https://www.youtube.com/channel/UCfBDWui9dSRbCmT32jf848Qs"><img title="GitHub version" src="https://img.shields.io/badge/-youtube-red" ></a> <a href="https://www.linkedin.com/in/shubham-goyal-sgpro"><img title="GitHub version" src="https://img.shields.io/badge/-Linkedin-green" ></a>
 </p>
