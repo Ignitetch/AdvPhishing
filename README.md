@@ -24,7 +24,9 @@ When victim enter his credentials, you need to go to original website and use th
 [(![des](https://user-images.githubusercontent.com/55870659/79192397-73119d00-7ddd-11ea-865f-9128abe2fba9.jpg)](https://www.youtube.com/watch?v=LO3hX1lLBjI)
 
 # MORE TUTORIALS 
+* Installation - https://www.youtube.com/watch?v=Yv5tT-hmcYQ
 * PAYTM OTP - https://www.youtube.com/watch?v=3TB_sISTw9U
+* TIKTOK -    https://www.youtube.com/watch?v=5qc0Mgyhr7E
 
 # SCREENSHOT ( KALI )
 ![full](https://user-images.githubusercontent.com/55870659/79147250-a7f80280-7d91-11ea-894a-d7d685a6e8cb.png)
