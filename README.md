@@ -8,7 +8,8 @@
 </p>
 
 
-# Follow on Social Media Platforms
+* Follow on Social Media Platforms
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 <p align="center">
 <a href="https://www.facebook.com/profile.php?id=100016971998117"><img title="GitHub version" src="https://img.shields.io/badge/-Facebook-blue" ></a> <a href="https://www.youtube.com/channel/UCfBDWui9dSRbCmT32jf848Qs"><img title="GitHub version" src="https://img.shields.io/badge/-youtube-red" ></a> <a href="https://www.linkedin.com/in/shubham-goyal-sgpro"><img title="GitHub version" src="https://img.shields.io/badge/-Linkedin-green" ></a>
 </p>
