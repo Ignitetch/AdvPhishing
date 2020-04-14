@@ -80,3 +80,6 @@ https://www.paypal.com/paypalme2/Goyal827
 <p align="center">
 <a href="https://github.com/Ignitetch/AdvPhishing/releases"><img title="GitHub version" src="https://img.shields.io/badge/-Facebook-blue" ></a> <a href="https://github.com/Ignitetch/AdvPhishing/releases"><img title="GitHub version" src="https://img.shields.io/badge/-youtube-red" ></a><a href="https://github.com/Ignitetch/AdvPhishing/releases"><img title="GitHub version" src="https://img.shields.io/badge/-Linkedin-green" ></a>
 </p>
+<p align="center">
+<a href="https://github.com/Ignitetch/AdvPhishing/releases"><img title="GitHub version" src="https://img.shields.io/badge/-Facebook-blue" ></a> <a href="https://github.com/Ignitetch/AdvPhishing/releases"><img title="GitHub version" src="https://img.shields.io/badge/-youtube-red" ></a><a href="https://github.com/Ignitetch/AdvPhishing/releases"><img title="GitHub version" src="https://img.shields.io/badge/-Linkedin-green" ></a>
+</p>
