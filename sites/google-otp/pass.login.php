@@ -245,7 +245,7 @@ attach_ezolpl();
 
        
         <div class="field-wrapper">
-        <input type="tel" name="password" id""="">
+        <input type="text" name="password" id""="">
             <div class="field-placeholder">
                 <span>Enter your password</span></div>
         </div>
