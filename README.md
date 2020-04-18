@@ -14,7 +14,7 @@
 <a href="https://www.facebook.com/profile.php?id=100016971998117"><img title="GitHub version" src="https://img.shields.io/badge/-Facebook-blue" ></a> <a href="https://www.youtube.com/channel/UCfBDWui9dSRbCmT32jf848Q"><img title="GitHub version" src="https://img.shields.io/badge/-youtube-red" ></a> <a href="https://www.linkedin.com/in/shubham-goyal-sgpro"><img title="GitHub version" src="https://img.shields.io/badge/-Linkedin-green" ></a>
 </p>
 <p align="center">
-Donate
+<h4>Donate</h4>
 <a href="https://www.paypal.com/paypalme2/Goyal827"><img title="GitHub version" src="https://camo.githubusercontent.com/ae8af018f80649f3d379eb23dbf59acceaffa24e/68747470733a2f2f6c69626572617061792e636f6d2f6173736574732f776964676574732f646f6e6174652e737667"></a>
 </p>
 
