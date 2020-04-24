@@ -19,8 +19,10 @@
 <p align="center">
 <a href="https://www.paypal.com/paypalme2/Goyal827"><img title="GitHub version" src="https://camo.githubusercontent.com/ae8af018f80649f3d379eb23dbf59acceaffa24e/68747470733a2f2f6c69626572617061792e636f6d2f6173736574732f776964676574732f646f6e6174652e737667"></a>
 </p>
+
 # Here is Best Tutorial with Good Explaination
 Link - https://secnhack.in/advphishing-otp-bypass-phishing-tool/
+
 # TECHNIQUE
 When victim enter his credentials, you need to go to original website and use those credentials to send real OTP to victim. Once he enter that OTP such OTP will also be there with you and you will be allowed to login the account before him.
 
