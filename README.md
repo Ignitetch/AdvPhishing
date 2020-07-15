@@ -23,6 +23,10 @@
   <b> Want to Learn to Create Professional Phishing Page, Ethical Hacking, Bug Bounty visit - secnhack.in  </b>
 </p>
 
+
+# Special WhatsApp OTP BYPASS VIDEO
+ Link - https://www.youtube.com/watch?v=6zfpSn2mOLU
+
 # TECHNIQUE
 When victim enter his credentials, you need to go to original website and use those credentials to send real OTP to victim. Once he enter that OTP such OTP will also be there with you and you will be allowed to login the account before him.
 
@@ -33,6 +37,7 @@ When victim enter his credentials, you need to go to original website and use th
 [(![des](https://user-images.githubusercontent.com/55870659/79192397-73119d00-7ddd-11ea-865f-9128abe2fba9.jpg)](https://www.youtube.com/watch?v=LO3hX1lLBjI)
 
 # MORE TUTORIALS 
+* Whatsapp OTP - https://www.youtube.com/watch?v=6zfpSn2mOLU
 * GOOGLE OTP - https://youtu.be/MhSb4My1lZo
 * Installation - https://www.youtube.com/watch?v=Yv5tT-hmcYQ
 * PAYTM OTP - https://www.youtube.com/watch?v=3TB_sISTw9U
