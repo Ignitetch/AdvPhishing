@@ -28,8 +28,17 @@
 <br>
 <br>
 
-### Special WhatsApp OTP BYPASS VIDEO
- Link - https://www.youtube.com/watch?v=6zfpSn2mOLU
+### SPECIAL OTP BYPASS VIDEO WORKED
+
+Social Media Hack          |      Link
+---------------------------|---------------
+Installation Termux        | https://www.youtube.com/watch?v=LO3hX1lLBjI
+Whatsapp OTP               | https://www.youtube.com/watch?v=6zfpSn2mOLU
+Google OTP                 | https://www.youtube.com/watch?v=MhSb4My1lZo
+Paytm OTP                  | https://www.youtube.com/watch?v=3TB_sISTw9U
+Instagram OTP              | https://www.youtube.com/watch?v=VmkV1rrw2-w
+Phone Pay OTP              | https://www.youtube.com/watch?v=ZgaoLubKBBo
+Telegram OTP               | https://www.youtube.com/watch?v=BhGyGkIDhO0
 
 ### TECHNIQUE
 When victim enter his credentials, you need to go to original website and use those credentials to send real OTP to victim. Once he enter that OTP such OTP will also be there with you and you will be allowed to login the account before him.
@@ -39,17 +48,6 @@ When victim enter his credentials, you need to go to original website and use th
 
 ### TUTORIAL [ TERMUX ]
 [(![des](https://user-images.githubusercontent.com/55870659/79192397-73119d00-7ddd-11ea-865f-9128abe2fba9.jpg)](https://www.youtube.com/watch?v=LO3hX1lLBjI)
-
-### MORE TUTORIALS 
-Social Media Hack          |      Link
----------------------------|---------------
-Installation               | https://www.youtube.com/watch?v=LO3hX1lLBjI
-Whatsapp OTP               | https://www.youtube.com/watch?v=6zfpSn2mOLU
-Google OTP                 | https://www.youtube.com/watch?v=MhSb4My1lZo
-Paytm OTP                  | https://www.youtube.com/watch?v=3TB_sISTw9U
-Instagram OTP              | https://www.youtube.com/watch?v=VmkV1rrw2-w
-Phone Pay OTP              | https://www.youtube.com/watch?v=ZgaoLubKBBo
-Telegram OTP               | https://www.youtube.com/watch?v=BhGyGkIDhO0
 
 ### SCREENSHOT ( KALI )
 ![full](https://user-images.githubusercontent.com/55870659/79147250-a7f80280-7d91-11ea-894a-d7d685a6e8cb.png)
