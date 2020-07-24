@@ -93,3 +93,9 @@ When victim enter his credentials, you need to go to original website and use th
 The use of the Adv-Phishing is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. 
 
 
+
+Variable Name              | Variable Value
+---------------------------|---------------
+Whatsapp OTP               | The target's company name
+Google OTP                 | The target's email address
+Paytm OTP                  | The target's first name
