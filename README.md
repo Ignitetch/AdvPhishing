@@ -41,11 +41,15 @@ When victim enter his credentials, you need to go to original website and use th
 [(![des](https://user-images.githubusercontent.com/55870659/79192397-73119d00-7ddd-11ea-865f-9128abe2fba9.jpg)](https://www.youtube.com/watch?v=LO3hX1lLBjI)
 
 ### MORE TUTORIALS 
-* Whatsapp OTP - https://www.youtube.com/watch?v=6zfpSn2mOLU
-* GOOGLE OTP - https://youtu.be/MhSb4My1lZo
-* Installation - https://www.youtube.com/watch?v=Yv5tT-hmcYQ
-* PAYTM OTP - https://www.youtube.com/watch?v=3TB_sISTw9U
-* TIKTOK -    https://www.youtube.com/watch?v=5qc0Mgyhr7E
+Social Media Hack          |      Link
+---------------------------|---------------
+Installation               | https://www.youtube.com/watch?v=LO3hX1lLBjI
+Whatsapp OTP               | https://www.youtube.com/watch?v=6zfpSn2mOLU
+Google OTP                 | https://www.youtube.com/watch?v=MhSb4My1lZo
+Paytm OTP                  | https://www.youtube.com/watch?v=3TB_sISTw9U
+Instagram OTP              | https://www.youtube.com/watch?v=VmkV1rrw2-w
+Phone Pay OTP              | https://www.youtube.com/watch?v=ZgaoLubKBBo
+Telegram OTP               | https://www.youtube.com/watch?v=BhGyGkIDhO0
 
 ### SCREENSHOT ( KALI )
 ![full](https://user-images.githubusercontent.com/55870659/79147250-a7f80280-7d91-11ea-894a-d7d685a6e8cb.png)
@@ -91,11 +95,3 @@ When victim enter his credentials, you need to go to original website and use th
                                        TO BE USED FOR EDUCATIONAL PURPOSES ONLY
 
 The use of the Adv-Phishing is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. 
-
-
-
-Variable Name              | Variable Value
----------------------------|---------------
-Whatsapp OTP               | The target's company name
-Google OTP                 | The target's email address
-Paytm OTP                  | The target's first name
