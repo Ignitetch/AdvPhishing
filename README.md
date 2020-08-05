@@ -31,6 +31,9 @@
 ### Join Our Whastapp Group For Any Queries and Learn Hacking 
 https://chat.whatsapp.com/HSRHmvNLwNd5wtz12jw4Gl
 
+### Join Our Telegrams Group For Any Queries and Learn Hacking 
+https://t.me/secnhack
+
 ### SPECIAL OTP BYPASS VIDEO WORKED
 
 Social Media Hack          |      Link
