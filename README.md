@@ -29,7 +29,8 @@
 <br>
 
 ### Join Our Whastapp Group For Any Queries and Learn Hacking 
-https://chat.whatsapp.com/J6FCipjBwg76UGI7Px2oae
+https://chat.whatsapp.com/J6FCipjBwg76UGI7Px2oae  -- If its Full
+https://chat.whatsapp.com/LFDAwmHkYDe1XI18AiKbLS
 
 
 ### SPECIAL OTP BYPASS VIDEO WORKED
