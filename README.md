@@ -56,6 +56,8 @@ When victim enter his credentials, you need to go to original website and use th
 
 ### SCREENSHOT ( KALI )
 ![1](https://user-images.githubusercontent.com/55870659/92330976-02e00e00-f041-11ea-9c32-bc33d2971b06.png)
+![2](https://user-images.githubusercontent.com/55870659/92331173-a8e04800-f042-11ea-8fd9-5aee83441280.png)
+
 
 
 ### INSTALLATION [ TERMUX APP --ANDROID ]
