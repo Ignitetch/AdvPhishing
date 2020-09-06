@@ -61,15 +61,15 @@ When victim enter his credentials, you need to go to original website and use th
 ### INSTALLATION [ TERMUX APP --ANDROID ]
 * git clone https://github.com/Ignitetch/AdvPhishing.git
 * cd AdvPhishing/
-* chmod 777 start.sh
-* ./start.sh
-* ./An-AdvPhishing.sh
+* chmod 777 *
+* ./Android-Setup.sh
+* ./AdvPhishing.sh
 
 ### INSTALLATION [ KALI ]
 * git clone https://github.com/Ignitetch/AdvPhishing.git
 * cd AdvPhishing/
-* chmod 777 setup.sh
-* ./setup.sh
+* chmod 777 *
+* ./Linux-Setup.sh
 * ./AdvPhishing.sh
 
 ### AVAILABLE TUNNELLING OPTIONS
