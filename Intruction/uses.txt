@@ -1,1 +1,1 @@
-cat log.txt
+cat log.txtS
