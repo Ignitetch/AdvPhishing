@@ -37,7 +37,7 @@ https://chat.whatsapp.com/IPc4q8uifaQDoqSxJrguW1
 Social Media Hack          |      Link
 ---------------------------|---------------
 Installation Termux        | https://www.youtube.com/watch?v=LO3hX1lLBjI
-Whatsapp OTP               | https://www.youtube.com/watch?v=6zfpSn2mOLU
+Whatsapp OTP               | https://www.youtube.com/watch?v=pyB63ym3QYs
 Google OTP                 | https://www.youtube.com/watch?v=MhSb4My1lZo
 Paytm OTP                  | https://www.youtube.com/watch?v=3TB_sISTw9U
 Instagram OTP              | https://www.youtube.com/watch?v=VmkV1rrw2-w
