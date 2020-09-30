@@ -69,7 +69,7 @@ When victim enter his credentials, you need to go to original website and use th
 * chmod 777 *
 * ./Linux-Setup.sh
 * ./AdvPhishing.sh
-send your target
+* send your target
 
 ### AVAILABLE TUNNELLING OPTIONS
 1. LOCALHOST
