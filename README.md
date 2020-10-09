@@ -55,12 +55,13 @@ When victim enter his credentials, you need to go to original website and use th
 ![2](https://user-images.githubusercontent.com/55870659/92331173-a8e04800-f042-11ea-8fd9-5aee83441280.png)
 
 
-# WHAT's New In AdvPhishing 2.2 Release 
+### WHAT's New In AdvPhishing 2.2 Release 
 Through This Features You can Obtains the Credentails on Your Gmail Account or Send to Someone Else.
-<p align="left">
+<br>
 ### Process
 * Sender : Open config.php File Through nano or your favorite tool and enter name, your email id, your password.
 * Receiver : Which you want to send the Credentials.
+
 ![3](https://user-images.githubusercontent.com/55870659/95553917-54cbd900-09dd-11eb-97f3-d50ca49fb3d3.png)
 ![4](https://user-images.githubusercontent.com/55870659/95553966-690fd600-09dd-11eb-94c1-95ddc60aa687.png)
 
