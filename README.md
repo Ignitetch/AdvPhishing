@@ -2,7 +2,7 @@
   <a><img title="Built With Love" src="https://forthebadge.com/images/badges/uses-html.svg" ></a>
  </p>
 <p align="center">
-<a href="https://github.com/Ignitetch/AdvPhishing/releases"><img title="GitHub version" src="https://img.shields.io/badge/version-2.1-blue" ></a>  
+<a href="https://github.com/Ignitetch/AdvPhishing/releases"><img title="GitHub version" src="https://img.shields.io/badge/version-2.2-blue" ></a>  
 </p>
 <img src="https://user-images.githubusercontent.com/55870659/92557010-185f5e80-f220-11ea-8d70-6a5208433ea6.png">
 <p align="center">
