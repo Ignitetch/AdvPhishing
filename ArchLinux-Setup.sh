@@ -19,6 +19,7 @@ sudo pacman -S curl
 systemctl enable https.service
 systemctl start httpd.service
 sudo pacman -S ruby
+sudo pacman -S rubygems
 gem install lolcat
 clear
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip --no-check-certificate
