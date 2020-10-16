@@ -14,12 +14,14 @@ echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   --------------------
 echo ""
 echo ""
 sudo pacman -S apache
+clear
 sudo pacman -S php
-sudo pacman -S curl
+clear
+sudo pacman -S wget
+clear
 systemctl enable https.service
 systemctl start httpd.service
-sudo pacman -S ruby
-gem install lolcat
+sudo pacman -S lolcat
 clear
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip --no-check-certificate
 unzip ngrok-stable-linux-amd64.zip
