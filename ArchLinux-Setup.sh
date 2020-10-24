@@ -16,7 +16,7 @@ echo ""
 sudo pacman -S apache
 sudo pacman -S php
 sudo pacman -S curl
-systemctl enable https.service
+systemctl enable httpd.service
 systemctl start httpd.service
 sudo pacman -S ruby
 sudo pacman -S rubygems
