@@ -29,9 +29,10 @@
 ### Join Our Whastapp Group For Any Queries and Learn Hacking 
 * https://chat.whatsapp.com/J6FCipjBwg76UGI7Px2oae  -- If its Full
 * https://chat.whatsapp.com/LFDAwmHkYDe1XI18AiKbLS  -- If its Full
-* https://chat.whatsapp.com/IPc4q8uifaQDoqSxJrguW1  -- If you Full
-* https://chat.whatsapp.com/HbPQoqTRLyV15GdBF4B5iw -- Space
-* https://chat.whatsapp.com/KoZJRTzSVmY7IwpmsLxDTm -- Space
+* https://chat.whatsapp.com/IPc4q8uifaQDoqSxJrguW1  -- If its Full
+* https://chat.whatsapp.com/HbPQoqTRLyV15GdBF4B5iw  -- If its Full
+* https://chat.whatsapp.com/KoZJRTzSVmY7IwpmsLxDTm --  If its Full
+* https://chat.whatsapp.com/FVI56kzsnkI7RaAOIH2E1S --  If its Full
 
 
 
