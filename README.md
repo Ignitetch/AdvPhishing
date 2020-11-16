@@ -42,6 +42,7 @@ Social Media Hack          |      Link
 ---------------------------|---------------
 Installation Termux        | https://www.youtube.com/watch?v=U1nYsNLlFsw
 Installation Kali Linux    | https://www.youtube.com/watch?v=AimEvwpVedM
+Whatsapp OTP Bypassing     | https://www.youtube.com/watch?v=pw4jUjBlyP4
 
 ### TECHNIQUE
 When victim enter his credentials, you need to go to original website and use those credentials to send real OTP to victim. Once he enter that OTP such OTP will also be there with you and you will be allowed to login the account before him.
