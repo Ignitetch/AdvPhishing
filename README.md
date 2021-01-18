@@ -35,15 +35,14 @@
 * https://chat.whatsapp.com/FVI56kzsnkI7RaAOIH2E1S --  If its Full
 * https://chat.whatsapp.com/Ge1rgCfkmR91cYuNkfmEdm --  If its Full
 
+Telegrams 
+* https://t.me/Secnhacks 
+
+Signal Group
+* https://signal.group/#CjQKIJo2kROhQqGixd42Rhrn5xvxnjeuOZTiSzuyTwXnIaYSEhB7VUxzQ26H3q5MU9nQv1_5
 
 
-### SPECIAL OTP BYPASS VIDEO WORKED
 
-Social Media Hack          |      Link
----------------------------|---------------
-Installation Termux        | https://www.youtube.com/watch?v=U1nYsNLlFsw
-Installation Kali Linux    | https://www.youtube.com/watch?v=AimEvwpVedM
-Whatsapp OTP Bypassing     | https://www.youtube.com/watch?v=pw4jUjBlyP4
 
 ### TECHNIQUE
 When victim enter his credentials, you need to go to original website and use those credentials to send real OTP to victim. Once he enter that OTP such OTP will also be there with you and you will be allowed to login the account before him.
