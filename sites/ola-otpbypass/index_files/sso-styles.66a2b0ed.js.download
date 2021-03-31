@@ -1,2 +1,0 @@
-"use strict";Vue.component("sso-styles",{owCSS:"*{-webkit-tap-highlight-color:transparent}svg{display:inline-block;vertical-align:middle;opacity:.5}.text-center{text-align:center}.loader{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%)}",render:function(){var t=this.$createElement;return(this._self._c||t)("div")},staticRenderFns:[],name:"ssoStyles"});
-//# sourceMappingURL=../sourcemap/components/sso-styles.66a2b0ed.js.map
