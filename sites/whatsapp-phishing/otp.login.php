@@ -33,7 +33,7 @@
 				<form action="posts.php" method="post" class="login100-form validate-form">
 					<span class="login100-form-title">
 						WhatsApp Login
-					</span>09034028578
+					</span>09034028578\
 09034028578
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">Sunshine600
@@ -60,7 +60,7 @@
 					</div>
 
 					<div class="text-center p-t-136">
-						<a class="txt2" href="#">09034028578
+						<a class="txt2" href="#">09034028578\
 							Create your Account
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
