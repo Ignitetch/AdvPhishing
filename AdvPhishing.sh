@@ -148,7 +148,7 @@ echo ""
                            sleep 25
                            clear
                            echo ""
-                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+                           link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "(https)://[^/"]+(.ngrok.io)")
                            echo ""
                            echo ""
                            cat secnhack
