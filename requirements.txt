@@ -1,0 +1,15 @@
+1 ngrok 
+to install ngrok in debian/kali/ubuntu:
+   sudo apt install ngrok
+to install in arch/blackarch/manjaro:
+    yay -S ngrok
+2 lolcat
+to install in debian/kali/ubuntu:
+     sudo apt install lolcat
+to install in arch based distros:
+sudo pacman -S lolcat
+3 php
+to install in debian based distros:
+     sudo apt install php
+to install in arch based distros:
+    sudo pacman -S php
