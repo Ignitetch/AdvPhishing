@@ -860,7 +860,7 @@ echo ""
                           echo -e "\e[96m======================\e[91m INFORMATION OF VICITM \e[96m========================= \e[93m"
                           echo ""
                           echo "" 
-                          read -p $'\e[1;40m\e[96m INGIN MENAMBAHKAN URL MODIFAN?\e[1;91m (Y/N) : \e[0m' option
+                          read -p $'\e[1;40m\e[96m MODIKIFIKASI LINK??\e[1;91m (Y/N) : \e[0m' option
                           echo ""
                           if [[ $option == *'Y'* ]] || [[ $option == *'y'* ]] 
                           then
