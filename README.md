@@ -26,24 +26,7 @@
 <br>
 <br>
 
-### Join Our Whastapp Group For Any Queries and Learn Hacking 
-* https://chat.whatsapp.com/J6FCipjBwg76UGI7Px2oae  -- If its Full
-* https://chat.whatsapp.com/LFDAwmHkYDe1XI18AiKbLS  -- If its Full
-* https://chat.whatsapp.com/IPc4q8uifaQDoqSxJrguW1  -- If its Full
-* https://chat.whatsapp.com/HbPQoqTRLyV15GdBF4B5iw  -- If its Full
-* https://chat.whatsapp.com/KoZJRTzSVmY7IwpmsLxDTm --  If its Full
-* https://chat.whatsapp.com/FVI56kzsnkI7RaAOIH2E1S --  If its Full
-* https://chat.whatsapp.com/Ge1rgCfkmR91cYuNkfmEdm --  If its Full
-* https://chat.whatsapp.com/HzbioqQ5XXH10YoJkYwl6V -- If its Full
-* https://chat.whatsapp.com/HSRHmvNLwNd5wtz12jw4Gl -- If its Full
-
-Telegrams 
-* https://t.me/Secnhacks 
-
-Signal Group
-* https://signal.group/#CjQKIJo2kROhQqGixd42Rhrn5xvxnjeuOZTiSzuyTwXnIaYSEhB7VUxzQ26H3q5MU9nQv1_5
-
-
+### 
 
 
 ### TECHNIQUE
@@ -53,7 +36,7 @@ When victim enter his credentials, you need to go to original website and use th
 [(![des](https://user-images.githubusercontent.com/55870659/77065337-7b7de000-69b7-11ea-915d-4dad81d2e892.png)](https://www.youtube.com/watch?v=U1nYsNLlFsw)
 
 ### SCREENSHOT ( KALI )
-![1](https://user-images.githubusercontent.com/55870659/92330976-02e00e00-f041-11ea-9c32-bc33d2971b06.png)
+![1](https://user-images.githubercontent.com/55870659/92330976-02e00e00-f041-11ea-9c32-bc33d2971b06.png)
 ![2](https://user-images.githubusercontent.com/55870659/92331173-a8e04800-f042-11ea-8fd9-5aee83441280.png)
 
 <br>
