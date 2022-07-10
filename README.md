@@ -70,7 +70,7 @@ Through This Features You can Obtains the Credentails on Your Gmail Account or S
 ![3](https://user-images.githubusercontent.com/55870659/95553917-54cbd900-09dd-11eb-97f3-d50ca49fb3d3.png)
 ![4](https://user-images.githubusercontent.com/55870659/95553966-690fd600-09dd-11eb-94c1-95ddc60aa687.png)
 
-* Open your emial ID that you mentioned in sende, go security options, scroll down and trun on less secure setting. That's IT :) !!
+* Open your email ID that you mentioned in send, go security options, scroll down and trun on less secure setting. That's IT :) !!
 ![5](https://user-images.githubusercontent.com/55870659/95554016-77f68880-09dd-11eb-8530-fbe7a6f649e1.png)
 
 ### Results You Can See Here :) !!
