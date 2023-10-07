@@ -1,3 +1,4 @@
+A advance Otp Phishing tool
 <p align="right">
   <a><img title="Built With Love" src="https://forthebadge.com/images/badges/uses-html.svg" ></a>
  </p>
@@ -98,7 +99,7 @@ Through This Features You can Obtains the Credentails on Your Gmail Account or S
 
 ### AVAILABLE TUNNELLING OPTIONS
 1. LOCALHOST
-2. NGROK (https://ngrok.com/)
+2. NGROK (https://ngrok.com/) or If you are using ngrock in android so compulsory to open your hotspot rather than its not working
 ### TESTED ON FOLLOWING:-
 * Kali Linux - 2020.1a (version)
 * Parrot OS - Rolling Edition (version)
