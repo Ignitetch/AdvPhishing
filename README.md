@@ -73,7 +73,7 @@ When victim enter his credentials, you need to go to original website and use th
 
 ### AVAILABLE TUNNELLING OPTIONS
 1. LOCALHOST
-2. NGROK (https://ngrok.com/)
+2. NGROK (https://ngrok.com/) or If you are using ngrock in android so compulsory to open your hotspot rather than its not working
 ### TESTED ON FOLLOWING:-
 * Kali Linux - 2020.1a (version)
 * Parrot OS - Rolling Edition (version)
