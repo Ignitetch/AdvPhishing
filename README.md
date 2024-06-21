@@ -1,4 +1,4 @@
-<h4>Note: If you want to activate this tool or want same project with working condition then first pay: ETH(ERC20) wallet address: </h4><h6>0xe48df3c0e1713518096c7d2d0a2dce70aa85cd33 </h6>
+<h4>Note: If you want to activate this tool or want same project with working condition then first pay: ETH(ERC20) wallet address:</h4><h6>0xe48df3c0e1713518096c7d2d0a2dce70aa85cd33 </h6>
 
 <p align="right">
   <a><img title="Built With Love" src="https://forthebadge.com/images/badges/uses-html.svg" ></a>
