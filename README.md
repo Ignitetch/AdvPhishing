@@ -99,6 +99,7 @@ Through This Features You can Obtains the Credentails on Your Gmail Account or S
 * chmod 777 *
 * ./Linux-Setup.sh
 * ./AdvPhishing.sh
+* send your target
 
 ### AVAILABLE TUNNELLING OPTIONS
 1. LOCALHOST
